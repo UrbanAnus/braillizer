@@ -28,72 +28,8 @@ html = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"\n\
   </body>\n\
 </html>\n' % hex
 
-print html
+with open("red.html") as f:
+    f.write(html)
 # See http://en.wikipedia.org/wiki/Braille_ASCII
 # " A1B'K2L@CIF/MSP\"E3H9O6R^DJG>NTQ,*5<-U8V.%[$+X!&;:4\\0Z7(_?W]#Y)="
-
-# ⠀ (blank)
-# ⠁ A or 1
-# ⠂ comma
-# ⠃ B or 2
-# ⠄ apostrophe
-# ⠅ K
-# ⠆ semicolon
-# ⠇ L
-# ⠈
-# ⠉ C or 3
-# ⠊ I or 9
-# ⠋ F or 6
-# ⠌ (grade 2) the letters ST
-# ⠍ M
-# ⠎ S
-# ⠏ P
-# ⠐
-# ⠑ E or 5
-# ⠒
-# ⠓ H or 8
-# ⠔
-# ⠕ O
-# ⠖ exclamation point
-# ⠗ R
-# ⠘
-# ⠙ D or 4
-# ⠚ J or 0
-# ⠛ G or 7
-# ⠜
-# ⠝ N
-# ⠞ T
-# ⠟ Q
-# ⠠ capital letter follows
-# ⠡ (grade 2) the letters CH
-# ⠢
-# ⠣
-# ⠤ hyphen
-# ⠥ U
-# ⠦ opening question/quotation mark
-# ⠧ V
-# ⠨
-# ⠩ (grade 2) the letters SH
-# ⠪
-# ⠫
-# ⠬
-# ⠭ X
-# ⠮
-# ⠯ (grade 2) the word AND
-# ⠰
-# ⠱
-# ⠲ full stop
-# ⠳
-# ⠴ closing question/quotation mark
-# ⠵ Z
-# ⠶ bracket (parentheses)
-# ⠷
-# ⠸
-# ⠹ (grade 2) the letters TH
-# ⠺ W
-# ⠻
-# ⠼ number follows
-# ⠽ Y
-# ⠾
-# ⠿
 
